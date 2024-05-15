@@ -3,7 +3,8 @@ import Button from "@/components/Button";
 import Video from "@/components/Video";
 import Navbar from "@/components/Navbar";
 import Presentation from "@/components/Presentation";
-
+import Bento from "@/components/Bento";
+import Product from "@/components/Product";
 
 export default function Demo() {
   const notify = () => toast.success("Hello, world!");
@@ -14,8 +15,11 @@ export default function Demo() {
     <>
       <Navbar />
       <Video />
-      <Presentation />
+            <Product />
 
+
+      <Presentation />
+      <Bento />
 
       <Toaster />
       <p>Aca va todo el html</p>
