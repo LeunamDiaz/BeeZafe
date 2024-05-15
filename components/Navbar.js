@@ -23,22 +23,18 @@ export default function Navbar() {
 			</button>
 		</div>
 		<ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
-			<li><a className="text-sm text-white font-bold" href="#">Home</a></li>
-			<li className="text-gray-300">
-			</li>
-			<li><a className="hidden lg:inline-block lg:ml-auto py-2 px-6 hover:bg-white text-sm text-white hover:bg-white/5 backdrop-blur-sm transition duration-200" href="#">About Us</a></li>
-			<li className="text-gray-300">
-			</li>
-			<li><a className="hidden lg:inline-block lg:ml-auto py-2 px-6 hover:bg-white text-sm text-white hover:bg-white/5 backdrop-blur-sm transition duration-200" href="#">Services</a></li>
-			<li className="text-gray-300">
-			</li>
-			<li><a className="hidden lg:inline-block lg:ml-auto py-2 px-6 hover:bg-white text-sm text-white hover:bg-white/5 backdrop-blur-sm transition duration-200" href="#">Pricing</a></li>
-			<li className="text-gray-300">
-			</li>
-			<li><a className="hidden lg:inline-block lg:ml-auto py-2 px-6 hover:bg-white text-sm text-white hover:bg-white/5 backdrop-blur-sm transition duration-200" href="#">Contact</a></li>
-		</ul>
-		<a className="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 hover:bg-white text-sm text-white hover:text-black font-bold rounded-xl transition duration-200" href="#">Sign In</a>
-		<a className="hidden lg:inline-block py-2 px-6 hover:bg-white text-sm text-white hover:text-black font-bold rounded-xl transition duration-200" href="#">Sign up</a>
+  <li><a className="text-sm text-white font-bold" href="#">Inicio</a></li>
+  <li className="text-gray-300"></li>
+
+  <li><a className="hidden lg:inline-block lg:ml-auto py-2 px-6 hover:bg-white text-sm text-white hover:bg-white/5 backdrop-blur-sm transition duration-200" href="#">Servicios</a></li>
+  <li className="text-gray-300"></li>
+  <li><a className="hidden lg:inline-block lg:ml-auto py-2 px-6 hover:bg-white text-sm text-white hover:bg-white/5 backdrop-blur-sm transition duration-200" href="#">Precios</a></li>
+  <li className="text-gray-300"></li>
+  <li><a className="hidden lg:inline-block lg:ml-auto py-2 px-6 hover:bg-white text-sm text-white hover:bg-white/5 backdrop-blur-sm transition duration-200" href="#">Contacto</a></li>
+</ul>
+
+		<a className="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 hover:bg-white text-sm text-white hover:text-black font-bold rounded-md transition duration-200" href="#">Acceder</a>
+		<a className="hidden lg:inline-block py-2 px-6 hover:bg-white text-sm text-white hover:text-black font-bold rounded-md transition duration-200" href="#">Crear cuenta</a>
 	</nav>
 	<div className="navbar-menu relative z-50 hidden">
 		<div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
@@ -58,19 +54,16 @@ export default function Navbar() {
 			<div>
 				<ul>
 					<li className="mb-1">
-						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
+						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Inicio</a>
 					</li>
 					<li className="mb-1">
-						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">About Us</a>
+						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Servicios</a>
 					</li>
 					<li className="mb-1">
-						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Services</a>
+						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Precios</a>
 					</li>
 					<li className="mb-1">
-						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Pricing</a>
-					</li>
-					<li className="mb-1">
-						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Contact</a>
+						<a className="block p-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Contacto</a>
 					</li>
 				</ul>
 			</div>

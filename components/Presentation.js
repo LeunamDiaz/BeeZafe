@@ -28,8 +28,7 @@ export default function Presentation() {
               We're not reinventing the wheel
             </h3>
             <p className="my-6 text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              aliquam possimus quas, error esse quos.
+            Recibe información sobre la producción de miel que se ha generado.
             </p>
             <button type="button" className="self-start">
               Action
