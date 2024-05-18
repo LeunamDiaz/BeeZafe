@@ -22,16 +22,15 @@ export default function Button({ children, onClick }) {
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
           <div className="mb-16 lg:my-[100px] lg:max-w-lg lg:pr-5">
-            <p className="inline-block px-3 py-px mb-4 text-xs font-bold tracking-wider text-amber-500 uppercase rounded-full bg-teal-accent-400">
-              Bee Zafe
-            </p>
-            <h2 className="mb-3 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-              Poliniza el futuro
-            </h2>
-            <p className="pr-5 text-base text-white md:text-lg">
-              Revolucionemos la apicultura con colmenas inteligentes equipadas
-              con IoT. Monitoreo en tiempo real del bienestar de las abejas.
-            </p>
+          <p className="inline-block px-3 py-px mb-4 text-xs font-bold tracking-wider text-amber-500 uppercase rounded-full bg-teal-accent-400">
+  Bee Zafe
+</p>
+<h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+  Poliniza el futuro
+</h2>
+<p className="pr-5 text-base text-white md:text-lg">
+  Revolucionemos la apicultura con colmenas inteligentes equipadas con IoT. Monitoreo en tiempo real del bienestar de las abejas.
+</p>
           </div>
         </div>
       </div>
