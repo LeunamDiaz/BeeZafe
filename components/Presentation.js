@@ -17,7 +17,7 @@ export default function Presentation() {
             <img
               src="/colmena.jpg"
               alt=""
-              className="w-full sm:h-96 object-cover sm:object-top"
+              className="w-full sm:h-96 object-cover sm:object-top" 
             />
           </div>
           <div className="flex flex-col justify-center flex-1 p-6 dark:bg-black">

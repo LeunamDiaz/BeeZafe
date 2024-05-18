@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import BentoItem from "@/components/BentoItem";
 
 export default function Button({ children, onClick }) {
@@ -14,23 +16,25 @@ export default function Button({ children, onClick }) {
             <path d="M50 0H100L50 100H0L50 0Z" fill="#171717" />
           </svg>
           <div className="absolute inset-0 bg-black/40"></div>
-          <img
+          <Image
             className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
             src="/miel.jpg"
-            alt=""
+            width={500}
+            height={300}
+            alt="Miel"
           />
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
           <div className="mb-16 lg:my-[100px] lg:max-w-lg lg:pr-5">
           <p className="inline-block px-3 py-px mb-4 text-xs font-bold tracking-wider text-amber-500 uppercase rounded-full bg-teal-accent-400">
-  Bee Zafe
-</p>
-<h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-  Poliniza el futuro
-</h2>
-<p className="pr-5 text-base text-white md:text-lg">
-  Revolucionemos la apicultura con colmenas inteligentes equipadas con IoT. Monitoreo en tiempo real del bienestar de las abejas.
-</p>
+    Bee Zafe
+  </p>
+  <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+    Poliniza el futuro
+  </h2>
+  <p className="pr-5 text-base text-white md:text-lg">
+    Revolucionemos la apicultura con colmenas inteligentes equipadas con IoT. Monitoreo en tiempo real del bienestar de las abejas.
+  </p>
           </div>
         </div>
       </div>
@@ -54,16 +58,15 @@ export default function Button({ children, onClick }) {
             >
               <path
                 class="st0"
-                d="M455.998,0.004H56.002C25.063,0.011,0.008,25.067,0,56.006v399.989c0.008,30.938,25.063,55.994,56.002,56.002
-		h399.997c30.938-0.008,55.994-25.063,56.002-56.002V56.006C511.993,25.067,486.937,0.011,455.998,0.004z M479.999,455.994
-		c-0.007,6.68-2.664,12.579-7.032,16.969c-4.39,4.367-10.289,7.024-16.969,7.032H56.002c-6.68-0.008-12.579-2.664-16.969-7.032
-		c-4.367-4.39-7.023-10.289-7.031-16.969V56.006c0.008-6.68,2.664-12.579,7.031-16.977c4.39-4.359,10.289-7.016,16.969-7.023
-		h399.997c6.68,0.007,12.579,2.664,16.969,7.023c4.367,4.398,7.024,10.297,7.032,16.977V455.994z"
+                d="M455.998,0.004H56.002C25.063,0.011,0.008,25.067,0,56.006v399.989c0.008,30.938,25.063,55.994,56.002,56.002h399.997c30.938-0.008,55.994-25.063,56.002-56.002V56.006C511.993,25.067,486.937,0.011,455.998,0.004z M479.999,455.994
+      c-0.007,6.68-2.664,12.579-7.032,16.969c-4.39,4.367-10.289,7.024-16.969,7.032H56.002c-6.68-0.008-12.579-2.664-16.969-7.032
+      c-4.367-4.39-7.023-10.289-7.031-16.969V56.006c0.008-6.68,2.664-12.579,7.031-16.977c4.39-4.359,10.289-7.016,16.969-7.023
+      h399.997c6.68,0.007,12.579,2.664,16.969,7.023c4.367,4.398,7.024,10.297,7.032,16.977V455.994z"
               />
               <path
                 class="st0"
                 d="M128.012,119.101l26.391,76.783H270.86l16.352-67.947l9.938,2.031l9.93,2.015l-10.696,63.9h61.212
-		l26.392-76.783C346.612,96.577,302.83,83.6,256.008,83.6C209.178,83.6,165.388,96.577,128.012,119.101z"
+      l26.392-76.783C346.612,96.577,302.83,83.6,256.008,83.6C209.178,83.6,165.388,96.577,128.012,119.101z"
               />
             </svg>
             <h3 className="my-3 text-3xl font-semibold">Peso</h3>
@@ -124,3 +127,4 @@ export default function Button({ children, onClick }) {
     </div>
   );
 }
+
