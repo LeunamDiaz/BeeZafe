@@ -10,12 +10,12 @@ export default function Presentation() {
   };
 
   return (
-    <section className="p-4 lg:p-8 dark:bg-[#171717] dark:text-gray-800">
+    <section className="p-4 lg:p-8 dark:bg-700 dark:text-white">
       <div className="container mx-auto">
         <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
           <div className="w-full lg:w-1/2 relative">
             <img
-              src="/miel.jpg"
+              src="/colmena.jpg"
               alt=""
               className="w-full sm:h-96 object-cover sm:object-top"
             />
@@ -28,7 +28,8 @@ export default function Presentation() {
               We're not reinventing the wheel
             </h3>
             <p className="my-6 text-white">
-            Recibe información sobre la producción de miel que se ha generado.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              aliquam possimus quas, error esse quos.
             </p>
             <button type="button" className="self-start">
               Action

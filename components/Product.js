@@ -25,7 +25,7 @@ export default function Button({ children, onClick }) {
             <p className="inline-block px-3 py-px mb-4 text-xs font-bold tracking-wider text-amber-500 uppercase rounded-full bg-teal-accent-400">
               Bee Zafe
             </p>
-            <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+            <h2 className="mb-3 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
               Poliniza el futuro
             </h2>
             <p className="pr-5 text-base text-white md:text-lg">
@@ -45,7 +45,7 @@ export default function Button({ children, onClick }) {
           </h2>{" "}
         </div>
         <div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="flex flex-col items-center p-4">
+          <div className="flex flex-col items-center py-2">
             <svg
               fill="white"
               width="40px"
@@ -99,8 +99,8 @@ export default function Button({ children, onClick }) {
           </div>
           <div className="flex flex-col items-center p-4">
             <svg
-              width="40px"
-              height="40px"
+              width="45px"
+              height="45px"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ export default function Button({ children, onClick }) {
               />
             </svg>
             <h3 className="my-3 text-3xl font-semibold">Sonido</h3>
-            <div className="space-y-1 leading-tight">
+            <div className="space-y-1 leading-tight mb-4">
               <p>Analiza el éstres de las</p>
               <p>abejas por medio de la</p>
               <p>del sonido.</p>
